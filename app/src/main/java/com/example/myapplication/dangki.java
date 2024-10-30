@@ -30,18 +30,5 @@ public class dangki extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-        // Tìm kiếm TextView3
-        TextView textView3 = findViewById(R.id.textView3);
-
-        // Đặt sự kiện OnClick cho TextView3
-        textView3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Chuyển sang trang đăng nhập (dangnhap)
-                Intent intent = new Intent(dangki.this, dangnhap.class);
-                startActivity(intent);
-            }
-        });
     }
 }

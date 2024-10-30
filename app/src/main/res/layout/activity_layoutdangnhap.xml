@@ -88,20 +88,7 @@
         android:text="Login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/rcmsignout"
-        app:backgroundTint="@color/darkGrey" />
-
-    <!-- Sign Out TextView -->
-    <TextView
-        android:id="@+id/rcmsignout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/signout"
-        android:textAlignment="center"
-        android:textSize="18sp"
         app:layout_constraintTop_toBottomOf="@id/cbRememberMe"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"/>
+        app:backgroundTint="@color/darkGrey" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

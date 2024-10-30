@@ -99,7 +99,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:contentDescription="Book 1"
-                        app:srcCompat="@drawable/s1" />
+                        app:srcCompat="@drawable/googleg_standard_color_18" />
 
                     <TextView
                         android:layout_width="120dp"
@@ -121,7 +121,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:contentDescription="Book 2"
-                        app:srcCompat="@drawable/s2" />
+                        android:src="@android:drawable/ic_menu_camera" />
 
                     <TextView
                         android:layout_width="120dp"
@@ -143,7 +143,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:contentDescription="Book 3"
-                        app:srcCompat="@drawable/s3" />
+                        android:src="@android:drawable/ic_menu_myplaces" />
 
                     <TextView
                         android:layout_width="120dp"
@@ -153,8 +153,8 @@
                     android:textSize="14sp"
                     android:layout_marginTop="4dp" />
                 </LinearLayout>
-
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -172,7 +172,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:contentDescription="Book 4"
-                        app:srcCompat="@drawable/s4" />
+                        app:srcCompat="@drawable/googleg_standard_color_18" />
 
                     <TextView
                         android:layout_width="120dp"
@@ -194,7 +194,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:contentDescription="Book 5"
-                        app:srcCompat="@drawable/s5" />
+                        android:src="@android:drawable/ic_menu_camera" />
 
                     <TextView
                         android:layout_width="120dp"
@@ -216,7 +216,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:contentDescription="Book 6"
-                        app:srcCompat="@drawable/s6" />
+                        android:src="@android:drawable/ic_menu_myplaces" />
 
                     <TextView
                         android:layout_width="120dp"
@@ -245,7 +245,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:contentDescription="Book 7"
-                        app:srcCompat="@drawable/s7" />
+                        app:srcCompat="@drawable/googleg_standard_color_18" />
 
                     <TextView
                         android:layout_width="120dp"
@@ -267,7 +267,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:contentDescription="Book 8"
-                        app:srcCompat="@drawable/s8" />
+                        android:src="@android:drawable/ic_menu_camera" />
 
                     <TextView
                         android:layout_width="120dp"
@@ -289,7 +289,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:contentDescription="Book 9"
-                        app:srcCompat="@drawable/s9" />
+                        android:src="@android:drawable/ic_menu_myplaces" />
 
                     <TextView
                         android:layout_width="120dp"
@@ -308,7 +308,10 @@
         android:id="@+id/bottom_navigation_view"
         layout="@layout/bottom_navigation"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>

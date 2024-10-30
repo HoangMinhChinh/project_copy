@@ -34,15 +34,5 @@ public class introActivity extends AppCompatActivity {
                 startActivity(intent); // 4
             }
         });
-
-        TextView textView3 = findViewById(R.id.textView3); // Lấy TextView bằng id
-        textView3.setOnClickListener(new View.OnClickListener() { // Bắt sự kiện click
-            @Override
-            public void onClick(View v) {
-                // Chuyển sang activity_layoutdangnhap khi bấm vào textview3
-                Intent intent = new Intent(introActivity.this,dangnhap.class); // Tên activity đăng nhập
-                startActivity(intent);
-            }
-        });
     }
 }

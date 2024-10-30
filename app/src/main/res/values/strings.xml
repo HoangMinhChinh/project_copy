@@ -9,4 +9,6 @@
     <string name="wish_list">Yêu thích</string>
     <string name="cart">Quản lí sách</string>
     <string name="Explorer">Chính</string>
+    <string name="see_all">Xem tất cả</string>
+    <string name="all_book">Tất cả sách</string>
 </resources>
