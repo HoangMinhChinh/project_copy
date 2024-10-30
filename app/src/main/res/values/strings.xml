@@ -5,8 +5,8 @@
     <string name="signing">Bạn đã có tài khoản? <font color="#39c7a5">Đăng nhập</font></string>
     <string name="signout">Bạn chưa có tài khoản? <font color="#39c7a5">Đăng kí ngay!!</font></string>
     <string name="profile">Cá nhân</string>
-    <string name="my_order">Đơn hàng của tôi</string>
+    <string name="order">Đơn hàng</string>
     <string name="wish_list">Yêu thích</string>
-    <string name="cart">Mua sắm</string>
-    <string name="Explorer">Khám Phá</string>
+    <string name="cart">Quản lí sách</string>
+    <string name="Explorer">Chính</string>
 </resources>

@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_app"
     tools:context=".MainActivity">
 
     <!-- App Title -->
@@ -12,7 +13,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="350dp"
         android:layout_height="45dp"
-        android:background="@drawable/rounded_corners"
+        android:background="@color/grey"
         android:text="ĐĂNG NHẬP"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -88,7 +89,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/rcmsignout"
-        app:backgroundTint="@color/green" />
+        app:backgroundTint="@color/darkGrey" />
 
     <!-- Sign Out TextView -->
     <TextView
