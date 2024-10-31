@@ -27,7 +27,7 @@ class introActivity : AppCompatActivity() {
 
         val startBtn = findViewById<Button>(R.id.startBtn)
         startBtn.setOnClickListener {
-            val intent = Intent(this, dangki::class.java)
+            val intent = Intent(this, dangnhapActivity::class.java)
             startActivity(intent)
         }
     }

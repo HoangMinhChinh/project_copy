@@ -25,8 +25,9 @@
             android:name=".Activity.MainActivity"
             android:exported="true">
         </activity>
-        <activity android:name=".Activity.dangnhap" />
-        <activity android:name=".Activity.dangki"/>
+        <activity android:name=".Activity.dangnhapActivity" />
+        <activity android:name=".Activity.dangkiActivity"/>
+        <activity android:name=".Activity.dashboard_qls_Activity"/>
 
     </application>
 

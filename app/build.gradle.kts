@@ -58,5 +58,6 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview:1.3.0")
     debugImplementation("androidx.compose.ui:ui-tooling:1.3.0")
     implementation("androidx.compose.material3:material3:1.0.0")
+    implementation("com.github.bumptech.glide:glide:4.15.1")
 
 }

@@ -15,7 +15,7 @@
         android:layout_height="60dp"
         android:background="@drawable/grey_bg"
         android:src="@drawable/grey_bg"
-        android:scaleType="fitCenter"/>
+        android:scaleType="centerInside"/>
 
     <TextView
         android:id="@+id/titleTxt"
