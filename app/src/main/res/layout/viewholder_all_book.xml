@@ -30,7 +30,7 @@
         app:tint="@color/lightGrey" />
 
     <TextView
-        android:id="@+id/titleTxt2"
+        android:id="@+id/titleTxt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
