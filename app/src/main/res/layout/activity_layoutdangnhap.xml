@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_app"
-    tools:context=".MainActivity">
+    tools:context=".Activity.MainActivity">
 
     <!-- App Title -->
     <TextView
@@ -27,11 +27,11 @@
     <!-- Image Banner -->
     <ImageView
         android:id="@+id/ivBanner"
-        android:layout_width="0dp"
+        android:layout_width="300dp"
         android:layout_height="200dp"
         android:src="@drawable/dangnhap"
         android:scaleType="centerCrop"
-        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintTop_toBottomOf="@id/btnLogin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="19dp"/>
@@ -52,7 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ivBanner" />
+        app:layout_constraintTop_toBottomOf="@id/tvTitle" />
 
     <EditText
         android:id="@+id/etPassword"

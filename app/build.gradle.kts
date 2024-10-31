@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.google.gms.google.services)
+    alias(libs.plugins.kotlin.android)
 }
 
 android {
@@ -33,6 +34,9 @@ android {
     buildFeatures{
         viewBinding=true
     }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
 }
 
 dependencies {
@@ -43,11 +47,16 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.firebase.database)
     implementation(libs.gridlayout)
+    implementation(libs.core.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 
     implementation("androidx.viewpager2:viewpager2:1.0.0") // Hoặc phiên bản mới nhất
     implementation("com.google.android.material:material:1.9.0") // Hoặc phiên bản mới nhất
+    implementation("androidx.compose.ui:ui:1.3.0")            // Use Compose UI
+    implementation("androidx.compose.ui:ui-tooling-preview:1.3.0")
+    debugImplementation("androidx.compose.ui:ui-tooling:1.3.0")
+    implementation("androidx.compose.material3:material3:1.0.0")
 
 }
