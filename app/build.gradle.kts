@@ -8,7 +8,7 @@ plugins {
 
 android {
     namespace = "com.example.myapplication"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.myapplication"
@@ -39,6 +39,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
 }
 
 dependencies {
@@ -61,5 +62,7 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling:1.3.0")
     implementation("androidx.compose.material3:material3:1.0.0")
     implementation("com.github.bumptech.glide:glide:4.15.1")
+    implementation("com.google.code.gson:gson:2.9.1")
+    implementation("com.tbuonomo:dotsindicator:5.0")
 
 }

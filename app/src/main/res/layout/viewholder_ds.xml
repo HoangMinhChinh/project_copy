@@ -17,7 +17,7 @@
         android:src="@drawable/grey_bg"
         android:scaleType="centerInside"/>
 
-    <TextView
+     <TextView
         android:id="@+id/titleTxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
